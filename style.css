@@ -1,0 +1,92 @@
+/* Todas bordas zero*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor do background e das fontes*/
+body {
+    background: #9b8cf0;
+    color: #FFF;
+    
+}
+
+/* Isso torna padrão as demais fontes que não forem estilizadas, normalmente se coloca a familia da que aparece mais no site*/
+html {
+    font-family: Inter, sans-serife; /*o sans-serife é caso não localize a fonte principal*/
+    font-weight: 500;
+}
+
+/*-------------------*/
+
+header {
+    background-color: #939393 ;
+    box-shadow: 0px 1px 5px #464646;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*displayflex 6:46 https://www.youtube.com/watch?v=P9cSVCGj0I0
+
+.nav_bar
+.logo
+.nav_list
+.nav_item
+.nav_link
+.button
+
+*/
+
+.nav_bar {
+    display: flex; /*coloca os elementos lado a lado*/
+    justify-content: space-between; /*justifica os elementos com espaço entre eles*/
+    align-items: center; /*alinha os itens centralizados*/
+    padding: 1.5rem 6rem; /*este tamanho basicamente deixa o site responsivo*/
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center
+}
+
+.logo h1{
+    color: rgb(255, 255, 255);
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+
+.nav_list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav_item {
+    display: flex;
+    margin: 0 15px;
+}
+
+.nav_link {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #FFF;
+    font-weight: 400px;
+}
+
+.nav_button button{
+   border: none;
+    background-color: #02495a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.50rm;
+
+}
