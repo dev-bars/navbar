@@ -76,9 +76,9 @@ header {
 .nav_link {
     display: flex;
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     color: #FFF;
-    font-weight: 800px;
+    font-weight: 400px;
 }
 
 .nav_item:hover {
