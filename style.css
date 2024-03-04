@@ -7,7 +7,7 @@
 
 /* Cor do background e das fontes*/
 body {
-    background: #9b8cf0;
+    background: #e8e8ea;
     color: #FFF;
     
 }
@@ -21,7 +21,7 @@ html {
 /*-------------------*/
 
 header {
-    background-color: #939393 ;
+    background-color: #bfbfbf ;
     box-shadow: 0px 1px 5px #464646;
     margin: 0px;
     padding: 0px;
@@ -58,6 +58,7 @@ header {
 .nav_list {
     display: flex;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 .nav_list ul {
@@ -77,16 +78,20 @@ header {
     text-decoration: none;
     font-size: 1.15rem;
     color: #FFF;
-    font-weight: 400px;
+    font-weight: 800px;
 }
+
+.nav_item:hover {
+    background: rgb(244, 244, 244);
+  }
 
 .nav_button button{
    border: none;
     background-color: #02495a;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 6px 40px;
+    border-radius: 10px;
     text-decoration: none;
     color: #FFF;
-    font-size: 1.50rm;
+    font-size: 1.5rem;
 
 }
